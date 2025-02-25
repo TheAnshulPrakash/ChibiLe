@@ -1,8 +1,7 @@
 # The Prosperity Public License 3.0.0
 
-Contributor: $name
+Contributor: Anshul Prakash
 
-Source Code: $address
 
 ## Purpose
 
