@@ -9,8 +9,10 @@ class DropdownMenu():
         options=[
             "Theme 1","Theme 2"
             ]
-        
-        HomuChan_icon.anime_photo(frame_anime,"C:/Users/rishi/PythonInterface/ControlPy/src/HomuChan1.png")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        image_name = "HomuChan1.png"
+        image_path = os.path.join(script_dir, image_name)
+        HomuChan_icon.anime_photo(frame_anime,image_path)
         self.var = tk.StringVar(value=options[0])
         self.prev_value = self.var.get()  # Store the initial value
         
@@ -69,14 +71,6 @@ class DropdownMenu():
             DialogBox().text_serial("Now Connecting...")
             self.serial_comm = SerialCommunication(port=clicked.get(), baudrate=115200)
             self.serial_comm.connect()
-            """"try:
-                while True:
-                    message = input("Enter message (or 'exit' to quit): ")
-                    if message.lower() == "exit":
-                        break
-                    self.serial_comm.send_message(message)
-            finally:
-                self.serial_comm.disconnect()"""
 
             
 
