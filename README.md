@@ -25,5 +25,7 @@ Captures real time audio for 5 seconds from mic and converts it to text
 ###### Theme:
 DropDownMenu
 
+- theme_select : Lets the user choose between 2 predefined theme (light and dark) and also 
+
 
     
