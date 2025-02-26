@@ -4,7 +4,7 @@ This project focuses on controlling smart home based iot devices over serial com
 It is also equipped with a simple anime inspired GUI to display its functionality
 
 ##### Referenced libraries 
--WhisperAI by OpenAi ("Small") for speech to text model
+-WhisperAI by OpenAi for speech to text model
 
 -serial to Communicate devices over Serial Ports
 
@@ -68,9 +68,16 @@ Contains different frames to place different widgets
 
 This project is made keeping in mind to be completely customizable by the end user by some minor tweaks
 
+### Basic Info:
+
+***This project uses Whisper AI model ("small") which on real time StT model consumes Memory of around***
+
+***Default Baud Rate for communication is 115200 which can be changed under function 'port_select' in the class DropDownMenu***
+
 ### Currently Working On:
 
 * To be able to communicate to devices over WiFi communications
 * To perform Robot functions on computer
+* To also use LLM TtT models to understand basic speech and perform operations
 * To add more custom themes
 
