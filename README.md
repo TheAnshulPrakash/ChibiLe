@@ -78,6 +78,10 @@ This project is made keeping in mind to be completely customizable by the end us
 
 * To be able to communicate to devices over WiFi communications
 * To perform Robot functions on computer
-* To also use LLM TtT models to understand basic speech and perform operations
+* To also use LLM TtT models to understand basic speech and perform respective operations
 * To add more custom themes
 
+
+Looking forward for positive reviews for my work
+
+*you can reach out to me at anshuldevacc@gmail.com*
