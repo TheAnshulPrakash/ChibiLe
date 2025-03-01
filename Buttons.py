@@ -64,7 +64,7 @@ class ButtonFrame():
         style.configure("Custom.Vertical.TScale",background="#cfdcec")
         
         tempscale=ttk.Scale(frame,from_=100,to=-5,variable=var,orient="vertical",style="Custom.Vertical.TScale")
-        TempLabel=tk.Label(frame,text=var).grid(row=4,column=1)
+        #TempLabel=tk.Label(frame,text=var).grid(row=4,column=1)
        
         tempscale.grid(row=4,column=0,pady=10)
         
