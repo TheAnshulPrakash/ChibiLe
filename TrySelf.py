@@ -27,7 +27,7 @@ window.title("ChibiLe")
 
 window.geometry('800x400')
 
-
+window.resizable(False,False)
 window.configure(background=BG)
 
 HomuChan_icon(window)
