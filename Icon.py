@@ -8,7 +8,7 @@ class HomuChan_icon():
     def __init__(self,parent):
         app_id = "Chibi Le.HomuChan"  
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
-        self.icon=Image.open("C:/Users/rishi/PythonInterface/ControlPy/src/Anime_Logo.png")
+        self.icon=Image.open("src/Anime_Logo.png")
         self.icon=ImageTk.PhotoImage(self.icon)
         parent.iconphoto(True,self.icon)
     def anime_photo(parent,photo_address):
